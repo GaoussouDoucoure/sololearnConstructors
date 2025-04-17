@@ -30,7 +30,7 @@ class Ticket {
     private int seat;
 
     //USING "this" keyboard if the variable of the instances are the same as the parameters of the functions, below I will do the same snippets of code without the "this" keyword and it will also work
-    public Ticket(String movie, int row, int seat) {
+    public Ticket(String movie, int row, int seat) { // THIS IS THE CONSTRUCTOR
         this.movie = movie;
         this.row = row;
         this.seat = seat;
