@@ -3,6 +3,8 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
+
+        //Taking user input
         System.out.print("Enter movie name: ");
         String movie = read.nextLine();
         System.out.print("Enter row number: ");
@@ -13,6 +15,12 @@ class Main {
         System.out.println("Movie: " + ticket.getMovie());
         System.out.println("Row: " + ticket.getRow());
         System.out.println("Seat: " + ticket.getSeat());
+
+        //Setting my own arguments
+        Ticket ticket1 = new Ticket("MI", 22, 1);
+        System.out.println(ticket1.getMovie());
+        System.out.println(ticket1.getRow());
+        System.out.println(ticket1.getSeat());
     }
 }
 
